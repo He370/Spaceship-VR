@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CGLRenderModel.cpp" />
+    <ClCompile Include="hellovr_opengl_main.cpp" />
+    <ClCompile Include="imgui_draw_3d.cpp" />
+    <ClCompile Include="InitShader.cpp" />
+    <ClCompile Include="Raycast.cpp" />
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\Matrices.cpp" />
+    <ClCompile Include="imgui_impl_vr.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="imgui_impl_glut.cpp" />
+    <ClCompile Include="LoadMesh.cpp" />
+    <ClCompile Include="LoadTexture.cpp" />
+    <ClCompile Include="planet.cpp" />
+    <ClCompile Include="Stones.cpp" />
+    <ClCompile Include="FinalVR.cpp" />
+    <ClCompile Include="Spaceship.cpp" />
+    <ClCompile Include="vr_callback.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGLRenderModel.h" />
+    <ClInclude Include="imgui_draw_3d.h" />
+    <ClInclude Include="InitShader.h" />
+    <ClInclude Include="Raycast.h" />
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\Matrices.h" />
+    <ClInclude Include="shared\Vectors.h" />
+    <ClInclude Include="imgui_impl_vr.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui_impl_glut.h" />
+    <ClInclude Include="LoadMesh.h" />
+    <ClInclude Include="LoadTexture.h" />
+    <ClInclude Include="planet.h" />
+    <ClInclude Include="stb_rect_pack.h" />
+    <ClInclude Include="stb_textedit.h" />
+    <ClInclude Include="stb_truetype.h" />
+    <ClInclude Include="Stones.h" />
+    <ClInclude Include="FinalVR.h" />
+    <ClInclude Include="Spaceship.h" />
+    <ClInclude Include="vr_callback.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ray_fs.glsl" />
+    <None Include="ray_vs.glsl" />
+    <None Include="gui_fs.glsl" />
+    <None Include="gui_vs.glsl" />
+    <None Include="fbo_fs.glsl" />
+    <None Include="fbo_vs.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{60959092-601e-47ea-a745-3fdd21bfc4bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
